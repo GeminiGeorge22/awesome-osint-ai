@@ -4,7 +4,7 @@
 
 OSINT(オープンソースインテリジェンス)に使える **AI / LLM / MCP ツール** のキュレーションリストです。AIエージェント、MCPサーバー、状況把握ダッシュボード、GEOINT、ローカルLLM、日本の公的情報源を掲載しています。
 
-スターバッジは shields.io による自動更新です。プルリクエスト歓迎。
+⭐ バッジは GitHub のスター数をリアルタイム表示します(shields.io)。release バッジは GitHub の最新リリース日(YYYY/MM/DD、最終更新時点)を示します。last commit バッジは最新コミット日をリアルタイム表示します(shields.io)。プルリクエスト歓迎。
 
 > **倫理と法令遵守**: 掲載ツールは、合法かつ正当な目的(セキュリティ研究、報道、デューデリジェンス、トラスト&セーフティ)にのみ使用してください。プライバシー、各サービスの利用規約、国内法(個人情報保護法など)を尊重し、ストーキング・嫌がらせ・個人情報の晒しには使わないでください。
 
@@ -22,41 +22,43 @@ OSINT(オープンソースインテリジェンス)に使える **AI / LLM / MC
 
 ## 関連するawesomeリスト
 
-- [jivoi/awesome-osint](https://github.com/jivoi/awesome-osint) ![stars](https://img.shields.io/github/stars/jivoi/awesome-osint?style=social) - 長年続く総合OSINTリスト。
-- [Astrosp/Awesome-OSINT-List](https://github.com/Astrosp/Awesome-OSINT-List) ![stars](https://img.shields.io/github/stars/Astrosp/Awesome-OSINT-List?style=social) - 幅広いOSINTツール集。AIツールも含む。
-- [ubikron/Awesome-AI-OSINT](https://github.com/ubikron/Awesome-AI-OSINT) ![stars](https://img.shields.io/github/stars/ubikron/Awesome-AI-OSINT?style=social) - AI×OSINTの記事・動画・ツール集。
-- [soxoj/awesome-osint-mcp-servers](https://github.com/soxoj/awesome-osint-mcp-servers) ![stars](https://img.shields.io/github/stars/soxoj/awesome-osint-mcp-servers?style=social) - OSINT向けMCPサーバーのリスト。
-- [shvyac/awesome-local-llm](https://github.com/shvyac/awesome-local-llm) ![stars](https://img.shields.io/github/stars/shvyac/awesome-local-llm?style=social) - ローカルLLMツール集(姉妹リスト)。
-- [llm-jp/awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-llm) ![stars](https://img.shields.io/github/stars/llm-jp/awesome-japanese-llm?style=social) - 日本語LLMまとめ。
-- [taishi-i/awesome-japanese-nlp-resources](https://github.com/taishi-i/awesome-japanese-nlp-resources) ![stars](https://img.shields.io/github/stars/taishi-i/awesome-japanese-nlp-resources?style=social) - 日本語NLPのライブラリ・LLM・辞書・コーパス・データセット集。
+- [jivoi/awesome-osint](https://github.com/jivoi/awesome-osint) ![GitHub stars](https://img.shields.io/github/stars/jivoi/awesome-osint?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F19-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/jivoi/awesome-osint?style=flat) - 長年続く総合OSINTリスト。
+- [Astrosp/Awesome-OSINT-List](https://github.com/Astrosp/Awesome-OSINT-List) ![GitHub stars](https://img.shields.io/github/stars/Astrosp/Awesome-OSINT-List?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/Astrosp/Awesome-OSINT-List?style=flat) - 幅広いOSINTツール集。AIツールも含む。
+- [ubikron/Awesome-AI-OSINT](https://github.com/ubikron/Awesome-AI-OSINT) ![GitHub stars](https://img.shields.io/github/stars/ubikron/Awesome-AI-OSINT?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/ubikron/Awesome-AI-OSINT?style=flat) - AI×OSINTの記事・動画・ツール集。
+- [soxoj/awesome-osint-mcp-servers](https://github.com/soxoj/awesome-osint-mcp-servers) ![GitHub stars](https://img.shields.io/github/stars/soxoj/awesome-osint-mcp-servers?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/soxoj/awesome-osint-mcp-servers?style=flat) - OSINT向けMCPサーバーのリスト。
+- [shvyac/awesome-local-llm](https://github.com/shvyac/awesome-local-llm) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-local-llm?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/shvyac/awesome-local-llm?style=flat) - ローカルLLMツール集(姉妹リスト)。
+- [llm-jp/awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-llm) ![GitHub stars](https://img.shields.io/github/stars/llm-jp/awesome-japanese-llm?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/llm-jp/awesome-japanese-llm?style=flat) - 日本語LLMまとめ。
+- [taishi-i/awesome-japanese-nlp-resources](https://github.com/taishi-i/awesome-japanese-nlp-resources) ![GitHub stars](https://img.shields.io/github/stars/taishi-i/awesome-japanese-nlp-resources?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/taishi-i/awesome-japanese-nlp-resources?style=flat) - 日本語NLPのライブラリ・LLM・辞書・コーパス・データセット集。
+- [frangelbarrera/OSINT-BIBLE](https://github.com/frangelbarrera/OSINT-BIBLE) ![GitHub stars](https://img.shields.io/github/stars/frangelbarrera/OSINT-BIBLE?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/frangelbarrera/OSINT-BIBLE?style=flat) - ツール、AI活用、調査ワークフロー、検証、GEOINT、OPSEC、倫理をまとめたOSINTフィールドガイド。
 
 ## AIエージェント・フレームワーク
 
-- [OpenOSINT/OpenOSINT](https://github.com/OpenOSINT/OpenOSINT) ![stars](https://img.shields.io/github/stars/OpenOSINT/OpenOSINT?style=social) - REPL・MCPサーバー・CLIを備えたAI OSINTエージェント。クラウド/ローカルモデル対応。許可された調査のみ。
-- [7onez/cti-expert](https://github.com/7onez/cti-expert) ![stars](https://img.shields.io/github/stars/7onez/cti-expert?style=social) - Claude Code / Codex 用のサイバー脅威インテリジェンス・OSINT分析スキル。
-- [ThreatRecall/zettelforge](https://github.com/ThreatRecall/zettelforge) ![stars](https://img.shields.io/github/stars/ThreatRecall/zettelforge?style=social) - CTI向けエージェント記憶。STIXナレッジグラフ、オフラインRAG、MCPサーバー。
+- [OpenOSINT/OpenOSINT](https://github.com/OpenOSINT/OpenOSINT) ![GitHub stars](https://img.shields.io/github/stars/OpenOSINT/OpenOSINT?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F19-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/OpenOSINT/OpenOSINT?style=flat) - パッシブなOSINTチェック用のオープンソースエンジン。21ツールをCLI・MCPサーバー・Web UIで提供。クラウド/ローカルモデル対応。許可された調査のみ。
+- [7onez/cti-expert](https://github.com/7onez/cti-expert) ![GitHub stars](https://img.shields.io/github/stars/7onez/cti-expert?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/7onez/cti-expert?style=flat) - Claude Code / Codex 用のサイバー脅威インテリジェンス・OSINT分析スキル。
+- [ThreatRecall/zettelforge](https://github.com/ThreatRecall/zettelforge) ![GitHub stars](https://img.shields.io/github/stars/ThreatRecall/zettelforge?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F06%2F27-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/ThreatRecall/zettelforge?style=flat) - CTI向けエージェント記憶。STIXナレッジグラフ、オフラインRAG、MCPサーバー。
 
 ## MCPサーバー
 
-- [marc-shade/world-intel-mcp](https://github.com/marc-shade/world-intel-mcp) ![stars](https://img.shields.io/github/stars/marc-shade/world-intel-mcp?style=social) - 120ツールのMCPサーバー。出典付きの状況ブリーフやジオフェンスに対応。
-- [damionrashford/RivalSearchMCP](https://github.com/damionrashford/RivalSearchMCP) ![stars](https://img.shields.io/github/stars/damionrashford/RivalSearchMCP?style=social) - 複数エンジンのWeb検索、SNS検索、学術DB、エンティティ調査。APIキー不要。
+- [marc-shade/world-intel-mcp](https://github.com/marc-shade/world-intel-mcp) ![GitHub stars](https://img.shields.io/github/stars/marc-shade/world-intel-mcp?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F09%2F02-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/marc-shade/world-intel-mcp?style=flat) - 無料の公開APIを使う160ツールのMCPサーバー(有料APIキー不要)。出典付きの状況ブリーフ、日付付きの観測履歴、ジオフェンスに対応。
+- [damionrashford/RivalSearchMCP](https://github.com/damionrashford/RivalSearchMCP) ![GitHub stars](https://img.shields.io/github/stars/damionrashford/RivalSearchMCP?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F04%2F17-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/damionrashford/RivalSearchMCP?style=flat) - 複数エンジンのWeb検索、SNS検索、学術DB、エンティティ調査。APIキー不要。
+- [w0h1v/mcp-shodan](https://github.com/w0h1v/mcp-shodan) ![GitHub stars](https://img.shields.io/github/stars/w0h1v/mcp-shodan?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F09%2F08-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/w0h1v/mcp-shodan?style=flat) - Shodan用MCPサーバー。インターネット接続機器の検索、IP調査、DNS検索、CVE/CPE脆弱性情報(Shodan APIキーが必要)。
 
 ## 状況把握・GEOINT
 
-- [koala73/worldmonitor](https://github.com/koala73/worldmonitor) ![stars](https://img.shields.io/github/stars/koala73/worldmonitor?style=social) - リアルタイムのグローバル情報ダッシュボード。AIによるニュース集約、地政学・インフラ監視。
-- [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) ![stars](https://img.shields.io/github/stars/bilawalsidhu/gods-eye-view?style=social) - 実データを使うブラウザ上の3D地球儀(衛星・航空機など)。
+- [koala73/worldmonitor](https://github.com/koala73/worldmonitor) ![GitHub stars](https://img.shields.io/github/stars/koala73/worldmonitor?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F25-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/koala73/worldmonitor?style=flat) - リアルタイムのグローバル情報ダッシュボード。AIによるニュース集約、地政学・インフラ監視。
+- [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) ![GitHub stars](https://img.shields.io/github/stars/bilawalsidhu/gods-eye-view?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F28-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/bilawalsidhu/gods-eye-view?style=flat) - 実データを使うブラウザ上の3D地球儀(衛星・航空機など)。
 
 ## ローカルLLM(非公開データの分析用)
 
 自分のマシンでモデルを動かせば、調査資料やメモ、案件ファイルなどの機微な情報を外部サーバーに送らずに済みます。上記のエージェントと組み合わせて使えます。
 
-- [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) ![stars](https://img.shields.io/github/stars/ggml-org/llama.cpp?style=social) - C/C++によるLLM推論。多くのローカルツールの基盤。
-- [ollama/ollama](https://github.com/ollama/ollama) ![stars](https://img.shields.io/github/stars/ollama/ollama?style=social) - オープンウェイトモデルをローカルで手軽に実行。
-- [vllm-project/vllm](https://github.com/vllm-project/vllm) ![stars](https://img.shields.io/github/stars/vllm-project/vllm?style=social) - 高スループット・省メモリな推論/サービングエンジン(GPUサーバー向け)。
-- [open-webui/open-webui](https://github.com/open-webui/open-webui) ![stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social) - OllamaやOpenAI互換APIに対応するセルフホスト型AIインターフェース。RAG対応。
-- [janhq/jan](https://github.com/janhq/jan) ![stars](https://img.shields.io/github/stars/janhq/jan?style=social) - 完全オフラインで動くオープンソースのChatGPT代替。
-- [mozilla-ai/llamafile](https://github.com/mozilla-ai/llamafile) ![stars](https://img.shields.io/github/stars/mozilla-ai/llamafile?style=social) - LLMを単一ファイルで配布・実行。
-- [zylon-ai/private-gpt](https://github.com/zylon-ai/private-gpt) ![stars](https://img.shields.io/github/stars/zylon-ai/private-gpt?style=social) - ローカルモデル上のプライベートAI用APIレイヤー。RAG・ツール・MCP対応。
+- [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) ![GitHub stars](https://img.shields.io/github/stars/ggml-org/llama.cpp?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F28-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/ggml-org/llama.cpp?style=flat) - C/C++によるLLM推論。多くのローカルツールの基盤。
+- [ollama/ollama](https://github.com/ollama/ollama) ![GitHub stars](https://img.shields.io/github/stars/ollama/ollama?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F28-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/ollama/ollama?style=flat) - オープンウェイトモデルをローカルで手軽に実行。
+- [vllm-project/vllm](https://github.com/vllm-project/vllm) ![GitHub stars](https://img.shields.io/github/stars/vllm-project/vllm?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F18-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/vllm-project/vllm?style=flat) - 高スループット・省メモリな推論/サービングエンジン(GPUサーバー向け)。
+- [open-webui/open-webui](https://github.com/open-webui/open-webui) ![GitHub stars](https://img.shields.io/github/stars/open-webui/open-webui?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F29-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/open-webui/open-webui?style=flat) - OllamaやOpenAI互換APIに対応するセルフホスト型AIインターフェース。RAG対応。
+- [janhq/jan](https://github.com/janhq/jan) ![GitHub stars](https://img.shields.io/github/stars/janhq/jan?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F28-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/janhq/jan?style=flat) - 完全オフラインで動くオープンソースのChatGPT代替。
+- [mozilla-ai/llamafile](https://github.com/mozilla-ai/llamafile) ![GitHub stars](https://img.shields.io/github/stars/mozilla-ai/llamafile?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F09%2F15-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/mozilla-ai/llamafile?style=flat) - LLMを単一ファイルで配布・実行。
+- [zylon-ai/private-gpt](https://github.com/zylon-ai/private-gpt) ![GitHub stars](https://img.shields.io/github/stars/zylon-ai/private-gpt?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F06%2F18-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/zylon-ai/private-gpt?style=flat) - ローカルモデル上のプライベートAI用APIレイヤー。RAG・ツール・MCP対応。
 
 ## 日本の公的情報源
 
@@ -83,12 +85,12 @@ OSINT(オープンソースインテリジェンス)に使える **AI / LLM / MC
 
 上記のAIエージェントの多くが内部で利用しています。
 
-- [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) ![stars](https://img.shields.io/github/stars/sherlock-project/sherlock?style=social) - ユーザー名からSNSアカウントを検索。
-- [soxoj/maigret](https://github.com/soxoj/maigret) ![stars](https://img.shields.io/github/stars/soxoj/maigret?style=social) - 多数のサイトからユーザー名ベースのプロファイルを収集。
-- [smicallef/spiderfoot](https://github.com/smicallef/spiderfoot) ![stars](https://img.shields.io/github/stars/smicallef/spiderfoot?style=social) - 脅威インテリジェンス・攻撃対象領域把握のためのOSINT自動化。
-- [laramies/theHarvester](https://github.com/laramies/theHarvester) ![stars](https://img.shields.io/github/stars/laramies/theHarvester?style=social) - メール・サブドメイン・氏名の収集。
-- [lissy93/web-check](https://github.com/lissy93/web-check) ![stars](https://img.shields.io/github/stars/lissy93/web-check?style=social) - Webサイト解析のオールインワンツール。
-- [gildas-lormeau/SingleFile](https://github.com/gildas-lormeau/SingleFile) ![stars](https://img.shields.io/github/stars/gildas-lormeau/SingleFile?style=social) - Webページを単一HTMLで保存(証拠保全向け)。
+- [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) ![GitHub stars](https://img.shields.io/github/stars/sherlock-project/sherlock?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F09%2F08-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/sherlock-project/sherlock?style=flat) - ユーザー名からSNSアカウントを検索。
+- [soxoj/maigret](https://github.com/soxoj/maigret) ![GitHub stars](https://img.shields.io/github/stars/soxoj/maigret?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F09%2F18-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/soxoj/maigret?style=flat) - 多数のサイトからユーザー名ベースのプロファイルを収集。
+- [smicallef/spiderfoot](https://github.com/smicallef/spiderfoot) ![GitHub stars](https://img.shields.io/github/stars/smicallef/spiderfoot?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2022%2F04%2F07-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/smicallef/spiderfoot?style=flat) - 脅威インテリジェンス・攻撃対象領域把握のためのOSINT自動化。
+- [laramies/theHarvester](https://github.com/laramies/theHarvester) ![GitHub stars](https://img.shields.io/github/stars/laramies/theHarvester?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F06%2F03-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/laramies/theHarvester?style=flat) - メール・サブドメイン・氏名の収集。
+- [lissy93/web-check](https://github.com/lissy93/web-check) ![GitHub stars](https://img.shields.io/github/stars/lissy93/web-check?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F02-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/lissy93/web-check?style=flat) - Webサイト解析のオールインワンツール。
+- [gildas-lormeau/SingleFile](https://github.com/gildas-lormeau/SingleFile) ![GitHub stars](https://img.shields.io/github/stars/gildas-lormeau/SingleFile?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F28-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/gildas-lormeau/SingleFile?style=flat) - Webページを単一HTMLで保存(証拠保全向け)。
 
 ## コントリビュート
 
@@ -117,6 +119,7 @@ OSINT(オープンソースインテリジェンス)に使える **AI / LLM / MC
 - [awesome-online-services](https://github.com/shvyac/awesome-online-services) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-online-services?style=flat&label=%E2%AD%90)
 - [awesome-open-source-solvers](https://github.com/shvyac/awesome-open-source-solvers) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-open-source-solvers?style=flat&label=%E2%AD%90)
 - [awesome-osint-ai](https://github.com/shvyac/awesome-osint-ai) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-osint-ai?style=flat&label=%E2%AD%90)
+- [awesome-quantum](https://github.com/shvyac/awesome-quantum) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-quantum?style=flat&label=%E2%AD%90)
 - [awesome-redmine-ai](https://github.com/shvyac/awesome-redmine-ai) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-redmine-ai?style=flat&label=%E2%AD%90)
 - [awesome-requirements-system-ai](https://github.com/shvyac/awesome-requirements-system-ai) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-requirements-system-ai?style=flat&label=%E2%AD%90)
 - [awesome-trading-stock](https://github.com/shvyac/awesome-trading-stock) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-trading-stock?style=flat&label=%E2%AD%90)
